@@ -5,5 +5,5 @@ wget https://github.com/CosmWasm/wasmvm/releases/download/v1.1.1/libwasmvm_muslc
 
 git clone https://github.com/osmosis-labs/osmosis.git
 cd osmosis
-git checkout v13.0.0-rc4
+git checkout v13.1.0
 BUILD_TAGS=muslc LINK_STATICALLY=true make build
