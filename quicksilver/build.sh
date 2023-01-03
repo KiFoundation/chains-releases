@@ -5,6 +5,6 @@ wget https://github.com/CosmWasm/wasmvm/releases/download/v1.1.1/libwasmvm_muslc
 
 git clone https://github.com/ingenuity-build/quicksilver.git
 cd quicksilver
-git checkout v1.1.0
+git checkout v1.2.0
 
 BUILD_TAGS=muslc LINK_STATICALLY=true make build
