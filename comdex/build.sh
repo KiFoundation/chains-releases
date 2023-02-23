@@ -7,4 +7,5 @@ git clone https://github.com/comdex-official/comdex.git
 cd comdex
 git checkout v9.0.0
 
+
 BUILD_TAGS=muslc LINK_STATICALLY=true make build
