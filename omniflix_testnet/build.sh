@@ -4,5 +4,5 @@ apk add git gcc build-base linux-headers
 
 git clone https://github.com/OmniFlix/omniflixhub.git
 cd omniflixhub
-git checkout v0.10.0-alpha.1
+git checkout v0.10.0-alpha.3
 BUILD_TAGS=muslc LDFLAGS='-linkmode=external -extldflags "-Wl,-z,muldefs -static"' make build
