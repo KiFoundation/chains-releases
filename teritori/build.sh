@@ -6,6 +6,6 @@ wget https://github.com/CosmWasm/wasmvm/releases/download/v1.0.0/libwasmvm_muslc
 git clone https://github.com/TERITORI/teritori-chain.git
 
 cd teritori-chain
-git checkout v1.3.1
+git checkout v1.4.0
 
 BUILD_TAGS=muslc LDFLAGS='-linkmode=external -extldflags "-Wl,-z,muldefs -static"' LINK_STATICALLY=true make build
