@@ -5,7 +5,7 @@ wget https://github.com/CosmWasm/wasmvm/releases/download/v1.2.1/libwasmvm_muslc
 
 git clone https://github.com/comdex-official/comdex.git
 cd comdex
-git checkout v11.5.0
+git checkout v11.5.1
 
 
 BUILD_TAGS=muslc LINK_STATICALLY=true make build
